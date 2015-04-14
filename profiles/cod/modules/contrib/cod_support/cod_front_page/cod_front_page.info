@@ -1,0 +1,15 @@
+name = COD Front Page
+description = Displays promoted content, sessions, and news on front page.
+core = 7.x
+package = COD Pages
+project = cod_front_page
+dependencies[] = cod_news
+dependencies[] = cod_session
+dependencies[] = ctools
+features[ctools][] = context:context:3
+features[features_api][] = api:2
+
+; Information added by drush on 2015-04-01
+version = "7.x-1.0-beta8+5-dev"
+project = "cod_support"
+datestamp = "1427924214"
